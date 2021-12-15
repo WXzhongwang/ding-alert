@@ -23,8 +23,8 @@ public class DingAlertServiceTest extends BaseTest {
     @Resource
     private DingAlertService dingAlertService;
 
-    private final WebHookParam webHookParam = new WebHookParam("https://oapi.dingtalk.com/robot/send?access_token=b729a1e337c48afeef8f1f400aa75b08f8dc1f3366f0000223a6bef79a01532a", true,
-            "SEC2ac0e12b0e49330361d9f80bd98cfed198d48897c8b7f00a2d35925161f3ef35");
+    private final WebHookParam webHookParam = new WebHookParam("https://oapi.dingtalk.com/robot/send?access_token=b729a1e337c48afeef8xxxx", true,
+            "SEC2ac0e12b0e49330361d9f80bd98cfed198d48897c8xxxx");
 
 
     @Test
