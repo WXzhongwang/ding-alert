@@ -59,7 +59,7 @@ public interface DingAlertService {
     boolean sendDingTalkMultiActionCardMsg(DingMultiActionCardAlertEntity alertEntity);
 
     /**
-     * 发送独立跳转 actionCard 类型消息
+     * 发送feedCard类型消息
      *
      * @param alertEntity
      * @return
