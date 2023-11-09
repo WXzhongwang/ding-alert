@@ -1,6 +1,5 @@
 package com.rany.ops.alert.service;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.rany.ops.alert.api.DingAlertService;
@@ -14,6 +13,7 @@ import com.rany.ops.alert.api.model.DingTextAlertEntity;
 import com.rany.ops.alert.api.model.FeedCardItem;
 import com.rany.ops.alert.service.constants.DingConstants;
 import com.rany.ops.manager.DingTalkAlertManager;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -30,7 +30,6 @@ import java.util.List;
  * @email 18668485565@163.com
  */
 @Service
-@Component
 public class DingAlertServiceImpl implements DingAlertService {
 
     @Override

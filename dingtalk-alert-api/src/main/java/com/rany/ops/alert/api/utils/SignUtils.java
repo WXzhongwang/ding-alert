@@ -1,9 +1,9 @@
 package com.rany.ops.alert.api.utils;
 
 import com.rany.ops.alert.api.model.WebHookParam;
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
 import org.apache.commons.codec.binary.Base64;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;

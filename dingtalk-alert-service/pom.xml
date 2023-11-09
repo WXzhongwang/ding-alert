@@ -19,12 +19,10 @@
         <dependency>
             <groupId>com.rany.ops</groupId>
             <artifactId>dingtalk-alert-api</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.rany.ops</groupId>
             <artifactId>dingtalk-alert-manager</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-collections</groupId>

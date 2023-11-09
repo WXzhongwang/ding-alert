@@ -1,11 +1,9 @@
-# 应用服务 WEB 访问端口
 server:
-  port: 4100
-
+  port: 3388
 # 应用名称
 spring:
   application:
-    name: dingtalk-alert
+    name: dingtalk-alert-service
 
 
 dubbo:
@@ -13,12 +11,12 @@ dubbo:
     id: dingtalk-alert-service
     name: dingtalk-alert-service
   protocol:
-    id: dubbo
     name: dubbo
-    port: 20880
+    port: -1
   registry:
-    protocol: zookeeper
-    address: 127.0.0.1:2181
+    address: zookeeper://127.0.0.1:2181
+  metadata-report:
+    address: zookeeper://127.0.0.1:2181
   scan:
     basePackages: com.rany.ops.alert.api
 

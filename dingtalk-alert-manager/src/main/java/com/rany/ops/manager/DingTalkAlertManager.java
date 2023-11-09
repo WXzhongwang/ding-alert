@@ -2,9 +2,9 @@ package com.rany.ops.manager;
 
 import com.alibaba.fastjson.JSONObject;
 import com.rany.ops.manager.model.DingMsgRequest;
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
