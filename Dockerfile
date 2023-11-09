@@ -8,4 +8,4 @@ VOLUME /tmp
 ADD /start/target/dingtalk-alert-service.jar dingtalk-alert-service.jar
 
 #docker运行命令
-ENTRYPOINT ["java","-Dspring.profiles.active=test","-jar","/uic-center-service.jar"]
+ENTRYPOINT ["java","-Dspring.profiles.active=test","-jar","/dingtalk-alert-service.jar"]

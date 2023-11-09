@@ -43,7 +43,7 @@ public class DingUtils {
             }
             return true;
         } catch (IOException e) {
-            logger.error("发送机器人消息：", e.getMessage());
+            logger.error("发送机器人消息：{}", e.getMessage(), e);
         }
         return false;
     }
